@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>valkDMA</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #08080c;
+    color: white;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+}
+
+nav {
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9%;
+    border-bottom: 1px solid #1d1d27;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.logo span {
+    color: #9b70ff;
+}
+
+.nav-label {
+    color: #777783;
+    font-size: 13px;
+}
+
+main {
+    min-height: calc(100vh - 75px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.content {
+    max-width: 600px;
+}
+
+.tag {
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid #39285c;
+    border-radius: 30px;
+    color: #b99aff;
+    background: #171020;
+    font-size: 12px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: clamp(55px, 10vw, 85px);
+    font-weight: 900;
+    letter-spacing: -4px;
+    margin-bottom: 15px;
+}
+
+h1 span {
+    color: #a77bff;
+}
+
+.description {
+    color: #898995;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.download {
+    padding: 16px 38px;
+    background: #9565f5;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.download:hover {
+    background: #ad88ff;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 30px #9565f544;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    color: #444450;
+    font-size: 12px;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+    <div class="logo">valk<span>DMA</span></div>
+    <div class="nav-label">OFFICIAL WEBSITE</div>
+</nav>
+
+<main>
+    <div class="content">
+        <div class="tag">WELCOME TO VALKDMA</div>
+
+        <h1>valk<span>DMA</span></h1>
+
+        <p class="description">
+            Welcome to valkDMA.<br>
+            Your destination starts here.
+        </p>
+
+        <button class="download" onclick="return false;">
+            Download
+        </button>
+    </div>
+</main>
+
+<footer>
+    © 2026 valkDMA. All rights reserved.
+</footer>
+
+</body>
+</html>
